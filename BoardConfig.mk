@@ -41,7 +41,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := ze620kl-user-sdm660-perf_defconfig
-TARGET_KERNEL_SOURCE := kernel/asus/X00Q
+TARGET_KERNEL_SOURCE := kernel/msm-3.18
 # Only when you don't have the source
 # TARGET_PREBUILT_KERNEL := device/asus/X00Q/kernel
 
